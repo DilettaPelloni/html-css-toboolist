@@ -59,6 +59,61 @@ button {
 
 .add-section {
     background-color: white;
-    border: 1px solid li;
+    border: 1px solid #d4d8dc;
     color: #d4d8dc;
 }
+
+/* SEZIONE LISTE */
+section.container {
+    margin-top: 3px;
+    border-radius: 0 0 5px 5px;
+    padding: 40px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.section-title::before {
+    margin-right: 10px;
+
+    content: '\25BC';
+    font-size: 0.6em;
+    
+}
+
+.list {
+    margin-top: 10px;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.list li::before {
+    margin-right: 10px;
+       
+    font-size: 0.7em;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 50%;
+
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+    padding: 3px;
+}
+
+.list li.check::before {
+    content: '\2713';
+    color: #6fc5b1;
+    border-color: #6fc5b1;
+}
+
+.list li.cross::before {
+    content: '\2717';
+    color: #eb5952;
+    border-color: #eb5952;
+}
+
