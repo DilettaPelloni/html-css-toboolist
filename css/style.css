@@ -90,6 +90,11 @@ section.container {
     margin-bottom: 25px;
 }
 
+.list li {
+    margin-bottom: 15px ;
+}
+
+/* SIMBOLO CHECK/CROSS */
 .list li::before {
     margin-right: 10px;
        
@@ -109,16 +114,50 @@ section.container {
 .list li.check::before {
     content: '\2713';
     color: #6fc5b1;
-    border-color: #6fc5b1;
 }
 
 .list li.cross::before {
-    content: '\2717';
+    content: '\2715';
     color: #eb5952;
-    border-color: #eb5952;
 }
 
-.list li {
-    margin-bottom: 15px ;
+/* ETICHETTE */
+
+.list li::after {
+    margin-left: 5px;
+    padding: 5px 10px;
+    
+    color: white;
+    font-size: 0.7em;
+    border-radius: 10px;
 }
 
+.list li.editorial::after {
+    content: 'Editorial';
+    background-color: #47adf1;
+}
+
+.list li.q1-goals::after {
+    content: 'Q1 Goals';
+    background-color: #9c72e4;
+}
+
+.list li.recruiting::after {
+    content: 'Recruiting';
+    background-color: #64c0a9;
+}
+
+.list li.mobile::after {
+    content: 'Mobile';
+    background-color: #f29e33;
+}
+
+.list li.website::after {
+    content: 'Website';
+    background-color: #d863a0;
+}
+
+.list li.sales::after {
+    content: 'Sales';
+    background-color: #b0c926;
+}
