@@ -15,6 +15,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container {
+    background-color: white;
+    padding-left: 40px;
+}
+
 /* HEADER GENERALE*/
 header {
     background-color: white;
@@ -28,4 +38,27 @@ header {
 #main-title {
     display: inline;
     vertical-align: middle;
+}
+
+/* HEADER DEL MAIN */
+header.container {
+    margin-top: 40px;
+    border-radius: 5px 5px 0 0;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.add-task {
+    background-color: #47adf1;
+    color: white;
+    border: none;
+}
+
+.add-section {
+    background-color: white;
+    border: 1px solid li;
+    color: #d4d8dc;
 }
