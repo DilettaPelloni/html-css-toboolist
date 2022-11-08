@@ -43,6 +43,7 @@ header {
 /* HEADER DEL MAIN */
 header.container {
     margin-top: 40px;
+    padding-top: 15px;
     border-radius: 5px 5px 0 0;
 }
 
@@ -86,7 +87,7 @@ section.container {
 .list {
     margin-top: 10px;
     list-style-type: none;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .list li::before {
@@ -115,5 +116,9 @@ section.container {
     content: '\2717';
     color: #eb5952;
     border-color: #eb5952;
+}
+
+.list li {
+    margin-bottom: 15px ;
 }
 
