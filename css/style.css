@@ -1,4 +1,3 @@
-
 /* RESET */
 * {
     margin: 0;
@@ -32,6 +31,7 @@ header {
 }
 
 #main-logo {
+    height: 50px;
     vertical-align: middle;
 }
 
@@ -54,8 +54,9 @@ button {
 
 .add-task {
     background-color: #47adf1;
+    border: 1px solid #47adf1;
     color: white;
-    border: none;
+    
 }
 
 .add-section {
@@ -77,11 +78,9 @@ section.container {
 }
 
 .section-title::before {
-    margin-right: 10px;
+    margin-right: 5px;
 
-    content: '\25BC';
-    font-size: 0.6em;
-    
+    content: '\23F7';    
 }
 
 .list {
